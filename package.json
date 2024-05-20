@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "set-webhook:dev": "NODE_ENV=development node setWebhook.js",
-    "set-webhook:prod": "NODE_ENV=production node setWebhook.js"
+    "set-webhook:prod": "NODE_ENV=production node setWebhook.js",
+    "register-commands": "node registerCommands.js"
   },
   "dependencies": {
     "axios": "^1.6.8",
