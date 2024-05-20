@@ -7,8 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "set-webhook:dev": "NODE_ENV=development node setWebhook.js",
-    "set-webhook:prod": "NODE_ENV=production node setWebhook.js",
+    "set-webhook:dev": "NODE_ENV=development node scripts/setWebhook.js",
+    "set-webhook:prod": "NODE_ENV=production node scripts/setWebhook.js",
     "register-commands": "node registerCommands.js"
   },
   "dependencies": {
